@@ -10,7 +10,7 @@ int main()
 	
 	for(int i=0;i<n;i++)
 	scanf("%d",a+i);
-	
+	//q[i]存储代表长度为i的子序列后缀最小的值
 	q[0]=-2e9;
 	int len =0;//代表q数组里元素的个数 
 	for(int i=0;i<n;i++)
